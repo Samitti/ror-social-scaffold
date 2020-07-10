@@ -1,6 +1,6 @@
-# Scaffold for social media app with Ruby on Rails
+# Social Media Project with Ruby on Rails
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+In this project we designed the ERD of the database for the different models. And then we added a self referencial functionality to the users of the forked project. And also we write utit and integration tests. 
 
 ## Built With
 
