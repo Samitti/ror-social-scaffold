@@ -1,6 +1,6 @@
 # Social Media Project with Ruby on Rails
 
-In this project we designed the ERD of the database for the different models. And then we added a self referencial functionality to the users of the forked project.We also add some database improvements on the top of friendship functionality. And also we wrote unit and integration tests. 
+In this project, we designed the ERD of the database for the different models. And then we added a self-referential functionality to the users of the forked project. We also add some database improvements on the top of friendship functionality. And also we wrote unit and integration tests.
 
 ## Built With
 
