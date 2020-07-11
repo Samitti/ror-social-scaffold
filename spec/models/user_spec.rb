@@ -22,6 +22,10 @@ RSpec.describe User, type: :model do
     it { should have_many(:friendships) }
     it { should have_many(:inverse_friendships) }
     it { should have_many(:confirmed_friendships) }
+    it { should have_many(:friends).through(:confirmed_friendships) }
+    it { should have_many(:inverted_friendships) }
+    it { should have_many(:friend_requests).through(:inverted_friendships) }
+    
 
   end
 end
