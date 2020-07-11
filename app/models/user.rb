@@ -20,29 +20,8 @@ class User < ApplicationRecord
   has_many :inverted_friendships, -> { where confirmed: false }, class_name: 'Friendship', foreign_key: 'friend_id'
   has_many :friend_requests, through: :inverted_friendships, source: :user
 
-  # def friends
-  #   forward_friends
-  # end
-
-  # def forward_friends
-  #   friends_array = friendships.map { |friendship| friendship.friend if friendship.confirmed }
-  #   friends_array.compact
-  # end
-
-  # def inverse_friends
-  #   inverse_friends_array = inverse_friendships.map { |friendship| friendship.user if friendship.confirmed }
-  #   inverse_friends_array.compact
-  # end
-
-  # Users who have yet to confirme friend requests
-  def pending_friends
-    friendships.map { |friendship| friendship.friend unless friendship.confirmed }.compact
-  end
-
-  # # Users who have requested to be friends
-  # def friend_requests
-  #   inverse_friendships.map { |friendship| friendship.user unless friendship.confirmed }.compact
-  # end
+  has_many :pending_friendships, -> { where confirmed: false }, class_name: 'Friendship', foreign_key: 'user_id'
+  has_many :pending_friends, through: :pending_friendships, source: :friend
 
   def confirm_friend(user)
     friendship = inverse_friendships.find { |my_friendship| my_friendship.user == user }
