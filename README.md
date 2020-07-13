@@ -9,7 +9,7 @@ In this project, we designed the ERD of the database for the different models. A
 
 ## Live Demo
 
-TBA
+[Live link](https://whispering-escarpment-93787.herokuapp.com)
 
 
 ## Getting Started
@@ -57,7 +57,7 @@ Open `http://localhost:3000/` in your browser.
 
 ### Deployment
 
-[Deployed to heroku] (https://whispering-escarpment-93787.herokuapp.com)
+[Deployed to heroku](https://whispering-escarpment-93787.herokuapp.com)
 
 ## Authors
 
@@ -76,12 +76,3 @@ Feel free to check the [issues page](https://github.com/Samitti/ror-social-scaff
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-TBA
-
-## 📝 License
-
-TBA
-
