@@ -57,7 +57,7 @@ Open `http://localhost:3000/` in your browser.
 
 ### Deployment
 
-[Deployed to heroku](https://whispering-escarpment-93787.herokuapp.com)
+[Heroku Link](https://whispering-escarpment-93787.herokuapp.com)
 
 ## Authors
 
