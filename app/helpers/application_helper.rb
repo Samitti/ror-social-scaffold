@@ -43,7 +43,7 @@ module ApplicationHelper
   end
 
   def friends
-    current_user.forward_friends + current_user.inverse_friends
+    current_user.friends
   end
 
   def pending_friends

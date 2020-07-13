@@ -13,6 +13,7 @@ class FriendshipsController < ApplicationController
     @friendship = Friendship.find_by(user_id: params[:id], friend_id: current_user.id)
     @friendship.update(confirmed: true)
     @friendship.save
+    create_double(params[:id])
     redirect_to users_path
   end
 
@@ -23,5 +24,9 @@ class FriendshipsController < ApplicationController
     @friendship&.destroy
     flash[:notice] = 'Successfully Removed Friend'
     redirect_to users_path
+  end
+
+  def create_double(friend_id)
+    Friendship.create(user_id: current_user.id, friend_id: friend_id, confirmed: true)
   end
 end
