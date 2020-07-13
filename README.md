@@ -1,6 +1,6 @@
 # Social Media Project with Ruby on Rails
 
-In this project, we designed the ERD of the database for the different models. And then we added a self-referential functionality to the users of the forked project. We also add some database improvements on the top of friendship functionality. And also we wrote unit and integration tests.
+In this project, we designed the ERD of the database for the different models. And then we added a self-referential functionality to the users of the forked project. We also add some database improvements on the top of friendship functionality. And finally we wrote unit and integration tests and deployed it to heroku.
 
 ## Built With
 
@@ -9,7 +9,7 @@ In this project, we designed the ERD of the database for the different models. A
 
 ## Live Demo
 
-TBA
+[Live link](https://whispering-escarpment-93787.herokuapp.com)
 
 
 ## Getting Started
@@ -57,7 +57,7 @@ Open `http://localhost:3000/` in your browser.
 
 ### Deployment
 
-TBA
+[Deployed to heroku](https://whispering-escarpment-93787.herokuapp.com)
 
 ## Authors
 
@@ -76,12 +76,3 @@ Feel free to check the [issues page](https://github.com/Samitti/ror-social-scaff
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-TBA
-
-## 📝 License
-
-TBA
-
